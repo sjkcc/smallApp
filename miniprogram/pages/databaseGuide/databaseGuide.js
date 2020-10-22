@@ -134,7 +134,6 @@ Page({
       })
     }
   },
-
   nextStep: function () {
     // 在第一步，需检查是否有 openid，如无需获取
     if (this.data.step === 1 && !this.data.openid) {
